@@ -39,8 +39,8 @@ $ffLocation = '/tmp/flatfile.csv';
 // Certification course Name -- Recertification follow-on course name
 
 // ---------------------------------------------
-// CPR within 2 months -- CPR First Aid 2016
-    $recertpolicy["2001"]= "6035";
+// CPR within 2 months -- CPR First Aid 2017
+    $recertpolicy["2001"]= "6036";
 // CPR First Aid 2011 -- CPR First Aid 2013
     $recertpolicy["6006"]= "6026";
 // CPR First Aid 2012 -- CPR First Aid 2014
@@ -51,10 +51,13 @@ $ffLocation = '/tmp/flatfile.csv';
     $recertpolicy["6027"]= "6034";
 // CPR First Aid 2015 -- CPR First Aid 2017
     $recertpolicy["6031"]= "6035";
-// CPR First Aid 2016 -- none
-    $recertpolicy["6034"]= "none";
+// CPR First Aid 2016 -- CPR First Aid 2018
+    $recertpolicy["6034"]= "6036";
 // CPR First Aid 2017 -- none
     $recertpolicy["6035"]= "none";
+// CPR First Aid 2018 -- none
+    $recertpolicy["6036"]= "none";
+
 
 
 // ---------------------------------------------
@@ -62,8 +65,8 @@ $ffLocation = '/tmp/flatfile.csv';
     $recertpolicy["4001"]= "none";
 
 // ---------------------------------------------
-// Fire Life Safety within 2 months -- Fire Life Safety 2016
-    $recertpolicy["2002"]= "5022";
+// Fire Life Safety within 2 months -- Fire Life Safety 2017
+    $recertpolicy["2002"]= "5026";
 // Fire Life Safety 2011 -- Fire Life Safety 2012
     $recertpolicy["5004"]= "5010";
 // Fire Life Safety 2012 -- Fire Lift Safety 2013
@@ -74,16 +77,18 @@ $ffLocation = '/tmp/flatfile.csv';
     $recertpolicy["5016"]= "5020";
 // Fire Life Safety 2015 -- Fire Life Safety 2016
     $recertpolicy["5020"]= "5022";
+// Fire Life Safety 2016 -- Fire Life Safety 2017
+    $recertpolicy["5022"]= "5026";
 // Fire Life Safety 2016 -- none
-    $recertpolicy["5022"]= "none";
+    $recertpolicy["5026"]= "none";
 
 // ---------------------------------------------
-// Healthcare within 2 months -- Nursing Annual 2016
-    $recertpolicy["2003"]= "5025";
+// Healthcare within 2 months -- Nursing Annual 2017
+    $recertpolicy["2003"]= "5029";
 
 // ---------------------------------------------
-// Intro to HIPAA within 2 months -- HIPAA 2016
-    $recertpolicy["2004"]= "5023";
+// Intro to HIPAA within 2 months -- HIPAA 2017
+    $recertpolicy["2004"]= "5027";
 // HIPAA 2011 -- HIPAA 2013
     $recertpolicy["6001"]= "6020";
 // HIPAA 2012 -- HIPAA 2014
@@ -94,12 +99,14 @@ $ffLocation = '/tmp/flatfile.csv';
     $recertpolicy["6021"]= "6028";
 // HIPAA 2015 -- HIPAA 2016
     $recertpolicy["6028"]= "5023";
-// HIPAA 2016 -- none
-    $recertpolicy["5023"]= "none";
+// HIPAA 2016 -- HIPAA 2017
+    $recertpolicy["5023"]= "5027";
+// HIPAA 2017 -- none
+    $recertpolicy["5027"]= "none";
 
 // ---------------------------------------------
-// Human Rights within 2 months -- Human Rights 2016
-    $recertpolicy["2005"]= "5024";
+// Human Rights within 2 months -- Human Rights 2017
+    $recertpolicy["2005"]= "5028";
 // Human Rights 2011 -- Human Rights 2013
     $recertpolicy["6002"]= "6022";
 // Human Rights 2012 -- Human Rights 2014
@@ -114,13 +121,15 @@ $ffLocation = '/tmp/flatfile.csv';
     $recertpolicy["6029"]= "5024";
 // Human Rights 2015v2 -- Human Rights 2016
     $recertpolicy["6033"]= "5024";
-// Human Rights 2016 -- none
-    $recertpolicy["5024"]= "none";
+// Human Rights 2016 -- Human Rights 2017
+    $recertpolicy["5024"]= "5028";
+// Human Rights 2017 -- none
+    $recertpolicy["5028"]= "none";
 
 
 // ---------------------------------------------
-// MedAdmin within 2 months -- Nursing Annual 2015
-    $recertpolicy["2006"]= "5025";
+// MedAdmin within 2 months -- Nursing Annual 2017
+    $recertpolicy["2006"]= "5029";
 
 // ---------------------------------------------
 // NHIS -- none
@@ -133,12 +142,14 @@ $ffLocation = '/tmp/flatfile.csv';
     $recertpolicy["5012"]= "5013";
 // Nursing Annual 2013 -- Nursing Annual 2014
     $recertpolicy["5013"]= "5019";
-// Nursing Annual 2014 --Nursing Annual 2015 
+// Nursing Annual 2014 -- Nursing Annual 2015 
     $recertpolicy["5019"]= ["5021"];
 // Nursing Annual 2015 -- Nursing Annual 2016
     $recertpolicy["5021"]= "5025";
-// Nursing Annual 2016 -- none
-    $recertpolicy["5025"]= "none";
+// Nursing Annual 2016 -- Nursing Annual 2017
+    $recertpolicy["5025"]= "5029";
+// Nursing Annual 2017 -- none
+    $recertpolicy["5029"]= "none";
 
 // ---------------------------------------------
 // Nutrition -- none
@@ -185,6 +196,9 @@ $ffLocation = '/tmp/flatfile.csv';
 /*
  *************************************************************************
  */
+
+    echo "Starting recertification promotion review...";
+
 
     // Connect to the Moodle database
     // WBLMS production platform
