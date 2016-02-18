@@ -14,7 +14,14 @@ print_header_simple($title='Bulk Enrollment', $heading='Bulk Enrollment', $navig
  */
 $residence = $_GET['residence'];
 $courseCategory = $_GET['courseCategory'];
-$categoryNum = array("thirty"=>6, "ninety"=>7, "oneeighty"=>8, "annual"=>24, "biannual"=>25);
+$categoryNum = array("prior"=>5,
+                     "ten"=>27,
+                     "thirty"=>26,
+                     "sixty"=>6,
+                     "ninety"=>7,
+                     "onetwenty"=>8,
+                     "annual"=>24,
+                     "biannual"=>25);
 
 
 /**

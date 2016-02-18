@@ -40,11 +40,14 @@ print_header_simple($title='Major', $heading='heading', $navigation='navigation'
                 <option value="WHITING">Whiting</option>
             </select><br /><br />
             Course Category: <select name="courseCategory">
-                <option value="thirty">30 day requirements</option>
-                <option value="ninety">90 day requirements</option>
-                <option value="oneeighty">180 day requirements</option>
+                <option value="prior">Prior to training</option>
+                <option value="ten">10 day requirements</option>
+                <option value="thirty">1 month requirements</option>
+                <option value="sixty">2 months requirements</option>
+                <option value="ninety">3 months requirements</option>
+                <option value="onetwenty">4 months requirements</option>
                 <option value="annual">Annual requirements</option>
-                <option value="biannual">Bi-Annual requirements</option>
+                <option value="biannual">Biannual requirements</option>
             </select><br /><br />
             <input type="submit" />
         </form>
